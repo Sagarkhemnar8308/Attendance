@@ -1,6 +1,6 @@
-import 'package:baapapp/Organization.dart';
 import 'package:flutter/material.dart';
 
+import 'First.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +18,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Organization(),
+      home: Home(),
     );
   }
 }
